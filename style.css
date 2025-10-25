@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.radio {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.radio label {
+  margin-right: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    background: transparent;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 650px;
+}
+
+label {
+  font-size: 16px;
+  margin: 8px 0 5px;
+}
+
+.terms {
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+  padding: 1px;
+}
+
+#btn{
+    width: 150px;
+    padding: 15px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    
+}
